@@ -1,0 +1,30 @@
+
+//sass --watch assets/css/scss/pages/super-craque-pele.min.scss:assets/css/super-craque-pele.min.css
+
+$vitrine-blue: #192C53;
+$vitrine-gray: #747474;
+
+//@import "../_lib/progressive.css";
+
+@import "../components/reset-tray";
+
+@import "../fonts/bebas-neue";
+@import "../fonts/gotham-book";
+@import "../fonts/gotham-medium";
+@import "../fonts/gotham-bold";
+@import "../fonts/gotham-black";
+@import "../fonts/sporty";
+
+
+@import "../components/variables";
+
+@import "super-craque-pele/home";
+@import "super-craque-pele/king";
+@import "super-craque-pele/details";
+@import "super-craque-pele/vitrine";
+@import "super-craque-pele/chronology";
+@import "super-craque-pele/curiosity";
+@import "../fonts/icons-font";
+@mixin md{
+    @media (min-width: 1200px) { @content; }
+}
